@@ -1,0 +1,233 @@
+body
+{
+  background-color: #1D27CB;
+  font-family: "Proxima Nova", sans-serif;
+  text-align: center;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  color: #666666;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+p
+{
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.container-fluid
+{
+  padding: 3% 10%;
+}
+
+.container-fluid-footer
+{
+  padding: 1%;
+}
+
+      .jumbotron-heading
+      {
+        font-family: 'Teko', sans-serif;
+        font-size: 6rem;
+        color: #dddddd;
+      }
+
+      .lead
+      {
+        font-family: "Proxima Nova", sans-serif;
+        color: #666666;
+      }
+
+      .WhiteBackground
+      {
+        background-color: #fff;
+      }
+
+
+/******************************************************************************/
+/********************************* COVER PAGE *********************************/
+/******************************************************************************/
+
+  #Cover .navbar
+  {
+    color: #666666;
+    font-weight: 500;
+  }
+
+  #Cover .navbar-brand
+  {
+    color: #666666;
+  }
+
+      .nav-item
+      {
+          padding: 0 18px 0 0;
+      }
+
+
+/******************************************************************************/
+/********************************* PORTFOLIO **********************************/
+/******************************************************************************/
+
+  #Portfolio
+  {
+    background-color: #f8f9fa;
+  }
+
+      .card
+      {
+        border-radius: 0;
+      }
+
+          .card-text
+          {
+            color: white;
+            font-family: 'Teko', sans-serif;
+            font-size: 2.25rem;
+            font-weight: 400;
+          }
+
+              /* .Smalltext
+              {
+                text-align: center;
+              } */
+
+      /******************** CARD BODY COLORS ********************/
+      .AndrewsUniversity .card-body
+      {
+        background-color: #002458;
+      }
+
+      .FreshScoop .card-body
+      {
+        background-color: #3892ea;
+      }
+
+      .PantyFresh .card-body
+      {
+        background-color: #ffffff;
+      }
+
+            .PantyFresh .card-text
+            {
+              color: #666666;
+            }
+
+      .DetriotLions .card-body
+      {
+        background-color: #000000;
+      }
+
+      .FeelsLikeHome .card-body
+      {
+        background-color: #918fa7;
+      }
+
+      .VictoryWebsite .card-body
+      {
+        background-color: #303d58;
+      }
+
+/******************************************************************************/
+/********************************** CONTACT ***********************************/
+/******************************************************************************/
+
+  #Contact .SocialMediaIcons
+  {
+    padding: 1rem;
+    margin: 0;
+  }
+
+      .SocialMediaIcons ul li
+      {
+        display: inline-block;
+        padding-right: 35px;
+      }
+
+      .Download
+      {
+        color: #1D27CB;
+        font-size: 1.1rem;
+      }
+
+
+/******************************************************************************/
+/****************************** GO TO TOP BUTTON ******************************/
+/******************************************************************************/
+
+      .goToTopBtn
+      {
+        background-color: #1D27CB;
+        color: #fff;
+        font-size: 22px;
+        line-height: 50px;
+        position: fixed;
+        text-align: center;
+        text-decoration: none;
+
+        width: 50px;
+        height: 50px;
+        bottom: 40px;
+        right: 50px;
+      }
+
+/******************************************************************************/
+/*********************************** FOOTER ***********************************/
+/******************************************************************************/
+
+  #footer
+  {
+    background-color: #f8f9fa;
+    color: #666666;
+    padding-top: 2rem;
+  }
+
+  #footer p
+  {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+  }
+
+  .footer-left
+  {
+      text-align: left;
+  }
+
+      .footer-left ul li
+      {
+          display: inline-block;
+      }
+
+            .footer-right ul li:last-child
+            {
+              padding-left: 0;
+            }
+
+      .footer-right
+      {
+        text-align: right;
+        padding-right: 10rem;
+      }
+
+  .footer-right ul li
+  {
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+            .footer-right ul li:last-child
+            {
+              padding-right: 0;
+            }
+
+  .fa, .fab
+  {
+    color: #666666;
+    font-size: 2rem;
+  }
